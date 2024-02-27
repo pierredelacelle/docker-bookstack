@@ -110,8 +110,8 @@ services:
       - APP_URL=https://bookstack.example.com
       - DB_HOST=bookstack_db
       - DB_PORT=3306
-      - DB_USER=bookstack
-      - DB_PASS=<yourdbpass>
+      - DB_USERNAME=bookstack
+      - DB_PASSWORD=<yourdbpass>
       - DB_DATABASE=bookstackapp
     volumes:
       - ./bookstack_app_data:/config
